@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "start": "parcel src/index.html",
-    "bundle": "parcel build src/index.html",
-    "serve-bundle": "cd dist && serve",
+    "build": "parcel build src/index.html",
+    "serve": "yarn build && cd dist && serve",
     "clean": "rm -rf dist && rm -rf .parcel-cache"
   },
   "dependencies": {
